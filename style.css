@@ -1,0 +1,124 @@
+body {
+
+  margin: 0 auto;
+
+
+}
+.container1 {
+  position: relative;
+  max-width: 880px;
+  height: 880px;
+  width: 100%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+
+.atackbar {
+  position: absolute;
+  top: 93%;
+  left: 0%;
+  font-size: 1.9em;
+  font-weight: bold;
+  display: flex;
+}
+.underline {
+  text-decoration: underline;
+  color:red;
+}
+
+
+
+.controllerBar {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  padding: 10px;
+  margin-top: -1em;
+  color: red;
+}
+
+.inputwords
+{ margin-left: 20px;
+  font-size: 2em;
+   width: 2em;
+}
+
+.fireButton {
+  height: 100%;
+}
+
+.empty {
+  border: none;
+}
+
+.messageArea {
+  color:blue;
+  margin-left: 50px;
+  margin-right: 50px;
+  opacity: 50%;
+  border: 1px solid blue;
+  width: 300px;
+  height: 100px;
+}
+
+.samaTB{
+  position: absolute;
+  width: 800px;
+}
+
+
+* > td {
+  border: 3px solid black;
+  width: 65px;
+  height: 69px;
+  font-size: 1.9em;
+  font-weight: bold;
+  justify-content: center;
+
+
+
+}
+
+ table > tr {
+  display: flex;
+}
+
+.hit {
+  background: url(images/ship.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+
+
+}
+
+.miss {
+  background: url(images/miss.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*end
